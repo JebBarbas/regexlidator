@@ -1,0 +1,30 @@
+{
+  "name": "regexlidator",
+  "version": "1.0.0",
+  "description": "Validate or get the parts of some patterns using regular expressions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "release": "standard-version",
+    "share": "git push --follow-tags origin main && npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JebBarbas/regexlidator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JebBarbas/regexlidator/issues"
+  },
+  "homepage": "https://github.com/JebBarbas/regexlidator#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "standard-version": "^9.5.0",
+    "typescript": "^4.7.4"
+  }
+}
