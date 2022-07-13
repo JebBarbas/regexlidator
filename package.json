@@ -6,24 +6,32 @@
   "scripts": {
     "build": "tsc",
     "release": "standard-version",
-    "share": "git push --follow-tags origin main && npm publish --access public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "share": "git push --follow-tags origin main && npm publish",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JebBarbas/regexlidator.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "regex", "validator", "regexlidator", "string"
+  ],
+  "author": "jebbarbas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JebBarbas/regexlidator/issues"
   },
   "homepage": "https://github.com/JebBarbas/regexlidator#readme",
   "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.4",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
+    "babel-jest": "^28.1.2",
     "eslint": "^8.19.0",
+    "jest": "^28.1.2",
     "standard-version": "^9.5.0",
     "typescript": "^4.7.4"
   }
